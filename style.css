@@ -1,0 +1,494 @@
+* {
+    margin: 0px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+    height: 100px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+.main__wrapper, .header__wrapper, .main__text, .main__text__registration, .main__who-and-how, .main__trademark, .main__plagiarism, .main__proof, .main__imperfect-laws {
+    padding: 0 280px 0 280px;
+}
+
+.header__wrapper {
+    background: #0b0c31;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.individual__project, .Poyaskov__Yevgeniy, .patented__title{
+    color: white;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+.header__wrapper__project, .header__wrapper__person {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.main__wrapper {
+    background: #010225;
+    height: 720px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.patented__title {
+    font-family: Bahnschrift;
+    font-size: 80px;
+    padding-bottom: 50px ;
+}
+
+.img__painted {
+    height: 1100px;
+    position: relative;
+    right: -250px;
+    bottom: -106px;
+}
+
+.img  {
+    display: flex;
+    align-items: center;
+}
+
+.patented__text {
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 20px;
+}
+
+.main__wrapper__patented {
+    display: flex;
+    align-items: center;    
+}
+
+.r__patented, .c__patented { 
+    height: 40px;
+    margin-right: 20px;
+}
+
+.patented__sign {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.r__patented__text, .c__patented__text {
+    font-family: Bahnschrift;
+    color: white;
+}
+
+.main__text {
+    background: #0C0D2E;
+    min-height: 750px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.copyright__text, .intellectual__property__text {
+    font-family: Bahnschrift;
+    color: #159BE8;
+    font-size: 50px;
+}
+
+.main__text__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: Bahnschrift;
+    color: white;
+    width: 800px;
+    font-size: 20px;
+    margin-bottom: 90px;
+    padding: 20px;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+    background: #0f103a;
+}
+
+.main__text__wrapper p {
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 20px;
+}
+
+.intellectual__property, .copyright {
+    width: 600px;
+    border: 5px;
+    border-style:groove ;
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+    border-color: #159BE8 ;
+    padding: 10px;
+}
+
+.intellectual__property__text {
+    margin-bottom: 25px;
+}
+
+.copyright__text {
+    margin-bottom: 82px;
+}
+
+.final {
+    height: 230px;
+    margin-right: 23px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.final__text {
+    display: flex;
+}
+
+.main__text__registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #010225;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 300px;
+}
+
+.rectangle-3 {
+    position: absolute;
+    transform: rotate(270deg);
+    left: -20px;
+    bottom: -1815px;
+}
+
+.rectangle-4 {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 1px;
+    height: 700px;
+    bottom: -1430px;
+}
+
+.main__text__registration p, li {
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.main__text__registration p{
+    margin-bottom: 40px;
+}
+
+.main__text__registration h2 {
+    font-family: Bahnschrift;
+    color: #159BE8;
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.main__text__registration p:last-child{
+    margin-top: 4%;
+}
+
+.main__text__registration li{
+    margin-bottom: 20px;
+}
+
+.text__registration {
+    width: 850px;
+    background-color:#020431;
+    padding: 30px;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+}
+
+.phone__register {
+    position: relative;
+}
+
+.main__who-and-how {
+    min-height: 800px;
+    background: #0C0D2E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.who-and-how__text{
+    padding: 30px;
+    width: 1000px;
+    background-color:#11113a;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+}
+.who-and-how__text p, li {
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 20px;
+}
+
+.who-and-how__text li {
+    margin-bottom: 20px;
+}
+
+.who-and-how__text h2 {
+    font-family: Bahnschrift; 
+    color: #159BE8;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.paragrph__style {
+    margin-bottom: 30px;
+}
+
+.background {
+    /* height: 850px; */
+    border: 3px solid #159BE8;
+    border-top: none;
+    border-bottom: none;
+}
+
+.main__trademark {
+    min-height: 700px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #010225;
+}
+
+.rectangle {
+    position: absolute;
+    left: -100px;
+    top: 3368px;
+    transform: rotate(90deg);
+}
+
+.rectangle-2 {
+    position: absolute;
+    transform: rotate(270deg);
+    right: 165px;
+    bottom: -3535px;
+}
+
+.trademark__text__css p, li {
+    position: relative;
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 23px;
+}
+
+.trademark__text__css h2 {
+    position: relative;
+    font-family: Bahnschrift; 
+    color: #159BE8;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.trademark__text__css li {
+    margin-bottom: 20px;
+}
+
+.trademark__text__css li:last-child {
+    margin-bottom:40px;
+}
+
+.trademark__text__css p {
+    margin-bottom: 40px;
+}
+
+.trademark__text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trademark__text__css {
+    /* position: relative; */
+    width: 900px;
+    background-color:#151544;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.img__trademark {
+    position: relative;
+    border: 3px solid #159BE8;
+    border-top: none;
+    border-bottom: none;
+    height: 680px;
+}
+
+.main__plagiarism {
+    min-height: 500px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #0C0D2E;
+}
+
+.plagiarism__text p, .illegal p{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 23px;
+}
+
+.plagiarism__text p {
+    margin-bottom: 25px;
+}
+
+.plagiarism__text h2, .illegal h2 {
+    font-family: Bahnschrift; 
+    color: #159BE8;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.line {
+    width: 100%;
+    border: 2px solid #159BE8;
+    margin: 40px 0 40px 0;
+}
+
+.plagiarism__text, .illegal {
+    width: 1000px;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+    padding: 30px;
+    background-color:#11113a;
+}
+.main__plagiarism {
+    display: flex;
+    justify-content: space-between;
+}
+
+.can-or-not {
+    border: 3px solid #159BE8;
+    border-top: none;
+    border-bottom: none;
+}
+
+.main__proof {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #010225;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proof__text {
+    width: 850px;
+    background-color:#151544;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.img__light {
+    height: 400px;
+    position: relative;
+}
+
+.main__imperfect-laws {
+    background: #0C0D2E;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.css-213{
+    background-color:#11113a;
+    border: 1px solid #7C44E2;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.main__proof p, .main__imperfect-laws p{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main__proof h2, .main__imperfect-laws h2 {
+    font-family: Bahnschrift; 
+    color: #159BE8;
+    font-size: 60px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.main__imperfect-laws__css li{
+    margin-bottom: 25px;
+    width: 600px;
+}
+
+.main__imperfect-laws__css {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main__imperfect-laws__css p {
+    width: 600px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color: #010225;
+    padding: 10px 0 10px 0;
+}
+
+.footer h2 {
+    font-family: Bahnschrift;
+    font-size: 72px;
+    color: #fff;
+}
+
+.footer p {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+
+.rectangle-5, .rectangle-6 {
+    position: absolute;
+    height: 650px;
+}
+
+.rectangle-5 {
+    height: 550px;
+    left: 100px;
+    transform: rotate(90deg);
+    bottom: -4928px;
+}
+
+.rectangle-6 {
+    transform: rotate(270deg);
+    right: 135px;
+    bottom: -5312px;
+}
+
